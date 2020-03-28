@@ -1,0 +1,30 @@
+.container__title {
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 39px;
+  width: 322px;
+
+  margin: 0;
+  color: #ffffff;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .container__title {
+    font-size: 24px;
+    line-height: 26px;
+  }
+}
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
+  .container__title {
+    font-size: 24px;
+    line-height: 26px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 374px) {
+  .container__title {
+    font-size: 24px;
+    line-height: 26px;
+  }
+}

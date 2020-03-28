@@ -1,0 +1,30 @@
+@import url(./__duration/container__duration.css);
+@import url(./__icon/_play/container__icon_play.css);
+@import url(./__image/container__image.css);
+@import url(./__item-bg/container__item-bg.css);
+@import url(./__item/container__item.css);
+@import url(./__subtitle/container__subtitle.css);
+@import url(./__title/container__title.css);
+
+.container {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+
+  margin-top: 72px;
+  max-width: 1184px;
+}
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
+  .container {
+    flex-direction: column;
+    margin-top: 24px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 374px) {
+  .container {
+    flex-direction: column;
+    margin-top: 24px;
+  }
+}

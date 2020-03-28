@@ -1,0 +1,10 @@
+.container__item-bg {
+  margin: 0;
+  margin-right: 18px;
+  position: relative;
+  width: 49%;
+}
+
+.container__item-bg:last-of-type {
+  margin-right: 0;
+}

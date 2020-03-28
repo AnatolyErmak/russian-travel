@@ -1,0 +1,29 @@
+.header__lang {
+  width: 1.875rem;
+  height: 1.4375rem;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.5rem;
+  line-height: 1.4375rem;
+  text-align: right;
+  margin: 17px 9px 0px 9px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.header__lang:hover {
+  opacity: 0.2;
+  transition: 0.2s;
+}
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
+  .header__lang {
+    height: 18px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 374px) {
+  .header__lang {
+    height: 18px;
+  }
+}
