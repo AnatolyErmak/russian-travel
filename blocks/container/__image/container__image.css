@@ -1,7 +1,6 @@
 .container__image {
   width: 100%;
   background-color: #2a2c2f;
-  opacity: 0.5;
 }
 
 .container__image:hover {
@@ -11,7 +10,7 @@
 @media screen and (min-width: 375px) and (max-width: 767px) {
   .container__image {
     margin-top: 8px;
-    width: 343px;
+    width: 340px;
     height: 200px;
   }
 }

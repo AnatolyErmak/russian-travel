@@ -26,5 +26,6 @@
   .container {
     flex-direction: column;
     margin-top: 24px;
+    width: 288px;
   }
 }

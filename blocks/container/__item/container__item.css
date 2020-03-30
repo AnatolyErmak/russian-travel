@@ -25,5 +25,6 @@
   .container__item {
     left: 12px;
     bottom: 0px;
+    width: 288px;
   }
 }
