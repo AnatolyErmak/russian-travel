@@ -1,8 +1,8 @@
-@import url(./__image/cover__image.css);
-@import url(./__subtitle/cover__subtitle.css);
-@import url(./__title/cover__title.css);
+@import url(./__image/case__image.css);
+@import url(./__subtitle/case__subtitle.css);
+@import url(./__title/case__title.css);
 
-.cover {
+.case {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
@@ -12,29 +12,40 @@
   margin-top: 102px;
 
   height: 594px;
+  text-decoration: none;
+
+  background-color: #2a2c2f;
+}
+
+.case:hover .case__image {
+  opacity: 0.7;
+}
+
+.case:link .case__image {
+  opacity: 0.7;
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
-  .cover {
+  .case {
     max-width: 1045px;
   }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-  .cover {
+  .case {
     max-width: 768px;
   }
 }
 
 @media screen and (min-width: 375px) and (max-width: 767px) {
-  .cover {
+  .case {
     max-width: 375px;
     margin-top: 48px;
   }
 }
 
 @media screen and (min-width: 320px) and (max-width: 374px) {
-  .cover {
+  .case {
     max-width: 375px;
     margin-top: 48px;
   }
