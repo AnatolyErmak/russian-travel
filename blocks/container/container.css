@@ -7,7 +7,7 @@
 @import url(./__title/container__title.css);
 
 .container__item-bg:hover .container__image {
-  opacity: 0.5;
+  opacity: 0.7;
 }
 
 .container {

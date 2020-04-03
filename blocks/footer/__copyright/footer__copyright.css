@@ -12,10 +12,6 @@
   .footer__copyright {
     margin: 5px;
   }
-
-  ul {
-    padding-inline-start: 0px;
-  }
 }
 
 @media screen and (min-width: 375px) and (max-width: 767px) {
